@@ -1,6 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
-from transformers import pipeline
+from transformers import pipeline, AutoTokenizer, AutoModelForSeq2SeqLM
 
 import spacy
 from collections import Counter
@@ -13,18 +13,17 @@ def summarise(url):
     response.close()
     soup = BeautifulSoup(response.text, 'html.parser')
 
-    # Extract text data from website
+    # Extract text data from the website
     text_data = ''
     for tag in soup.find_all(['p', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6']):
         text_data += tag.get_text()
-    #print(text_data)
 
     if len(text_data) > 1024:
         text_data = text_data[:1024]
 
-    # Load the summarization pipeline
-    summarizer = pipeline("summarization")
-    summary=summarizer(text_data, max_length=200, min_length=30, do_sample=False)
+    # Load the summarization pipeline without specifying the revision
+    summarizer = pipeline("summarization", model="facebook/bart-large-cnn")
+    summary = summarizer(text_data, max_length=200, min_length=30, do_sample=False)
 
     # Use spaCy for keyword extraction
     nlp = spacy.load("en_core_web_sm")
@@ -50,4 +49,8 @@ def summarise(url):
 
 if __name__ == "__main__":
     url = "https://learn.lboro.ac.uk"
-    summarise(url)
+    summary, keywords = summarise(url)
+
+    print(summary)
+    for i in keywords:
+        print(i)

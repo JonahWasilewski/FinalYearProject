@@ -1,27 +1,24 @@
 from WebsiteObject import Website
+import sqlite3
 
 def openCrawlList():
-    
-    # Open the crawl list
-    f = open("txtFiles/crawlList.txt", "r")
-    crawlList = f.read()
 
-    # Split up the crawl list into separate lines - one object is on each line
-    crawlList = crawlList.split("\n")
+    connection = sqlite3.connect('C:\\Users\\Jonah\\Documents\\Third Year\\Big Project\\Databases\\webpages.db')
+    cursor = connection.cursor()
 
+    cursor.execute("SELECT * FROM webpages")
+
+    rows = cursor.fetchall()
     websiteList = []
 
-    # Create objects for each of the lines
-    for i in range(len(crawlList)):
-        lineList = crawlList[i].split(": ")
-        # Assign each attribute of the website to a variable 
-        title = lineList[0]
-        keywords = lineList[1].split(", ")
-        url = lineList[2]
-
-        # Create the wesbite object from the extracted info
-        newWebsite = Website(title, keywords, url)
+    # Process the data
+    for row in rows:
+        # Turn each row into a new website
+        newWebsite = Website(row[0], row[1], row[2], row[3], row[4], row[5])
         websiteList.append(newWebsite)
+
+    cursor.close()
+    connection.close()
 
     return websiteList
 

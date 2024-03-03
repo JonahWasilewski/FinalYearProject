@@ -1,0 +1,5 @@
+{
+    "require": {
+		"gensim/gensim": "^0.1.0"
+    }
+}

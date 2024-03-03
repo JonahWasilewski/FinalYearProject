@@ -1,0 +1,57 @@
+##########
+0) FYI - my work pattern is on a five week cycle: three weeks work; two weeks not-work (I am on a 60% contract). The first two weeks non-work are 12th to 25th October (Thursday to Wednesday). In general terms, we will be meeting Thursdays alternate weeks in my work weeks during term time with a three week gap between meetings across my non-work weeks. This should give you enough time to make meaningful progress across two or three weeks, but not so long that you drift off course.
+
+##########  
+1) Type of project; Research or development (or a hybrid)? : fundamentally, I don't care:-). By the time we reach the supervision session in wk4 of this term (only just before the wk4 submission), you should have a clear idea of what you are trying to achieve with the project, ready to submit as your outline, together with ethical constraints (particularly engagement of human research participants)  and methodology (ie what are you going to do and how are you going to do it?) 
+
+1.1) If a research project, then you will need a research question which typically can be stated along the lines of "To what extent does cyber-foo ... influence cyber-bar ...?" (scrub the word "cyber" if you wnat to do something that is not cyber - that would also be fine). This will further decompose in to project objectives. If you achieve all the objectives, then you should have answered the research question you set yourself. 
+
+1.2) If a development project, then typically you will be seeking to develop a cyber-widget-foo ... that delivers worthwhile cyber-impact-bar ..." 
+
+1.3) If hybrid, then you are in the domain of "to what extent might widget-foo answer research question bar?" 
+
+###########  
+2) Topic, scale and focus: you have 400 hours to do everything. This equates to about 13 hourse per week, every week (including the vacations) over the 31 weeks prior to final submission. That is not much time, especially once assignments start to kick in as the year progresses. A tighter focus, done better, will get more marks than a loose focus done superficially. In general terms, the initial topic that a student starts with is too broad / ambitious / boil-the-ocean unrealistic for one person in 400 hours. End to war, hunger, climate change, ... you get the idea. My job is to push you just enough so that you fully achieve against the complexity you set yourself. I have found successful projects to be progressive and somewhat open ended (hence "To what extent ... ?" rather than "Does ... ?") so more and more can be done to get better and better results as the project progresses. 
+
+##########  
+3) Evidence: regardless whether research or development, you are seeking to produce and present robust evidence upon which sound findings can be based. This will require one of your early project objectives to be along the lines of "What are the characteristics / properties of goodness in the domain you are investigating?" It is against these metrics of goodness that you will be measuring your achievement. At your project conclusion, a cynical, hostile reader of your report should have to concede that they would fully understand how useful your thing / findings might be for them to base further work on your work. 
+
+###########  
+4) Proportionality: there are three broad aspects to your project: finding what already exists and can usefully be re-used in some way; doing your work to generate worthwhile data; presenting robust conclusions that can be drawn from the data you have generated. These three should feel roughly of equal stature; a good literature review (including sources that are not peer-reviewed literature but still have value) will refine your thinking as to what you are going to do; the way you set up your research and/or dev environment will determine the trust that you can place in any data you generate; drawing meaningful conclusions from that data so the third party reader properly understands the confidence that should be placed in any findings takes some talent. 
+
+##############  
+5) start the report now: the report is the only thing that is marked. Any activities that you do now should be aiming to generate material that can go into your report. You need to be ruthlessly instrumental in your project activities. Choose your favoured word processing environment. Set up a structure document with the necessary sections, subsection, table of contents, running headers, footers, etc etc . Each week, you should be aiming to put some worthwhile output into the evolving report. It doesn't have to beautiful prose. It doesn't have to be in the right section. It is much easier to edit to a coherent doc from material gathered over weeks and months previously, than it is to sit down at the end and write everything in one go. 
+
+###############  
+6) version control and backups: mistakes happen - manage the risk of them destroying project marks:-) 
+
+#############  
+7) plan but adapt: you should know clearly what you are going to do by the end of submission point. You should know how this roughly fits into the overall pattern of activity, needed to achieve your project overall goal. However, you will (badly) misjudge how long things will take. The only thing that matters is how you will use the remaining time. 
+
+##############  
+8) write the introduction to the final report in the next few weeks. This does not need to be big but needs to take the generic reader (not me, think of the external examiner who has seen nothing of your work, or one of the other tutors, or some of your switched on colleagues in class) and let them know "why bother?". At the same time, start writing your lit review (and record the reference sources as you find and use them). The lit review can carry on evolving (esp when you find a great source in March which you wished you had found in October!). The intro, lit review and outline methodology is probably what you will use for the January deliverable. The methodology will drive ethics decisions for the ethics submission (you need to now how you are going to interact with the rest of the world in order to understand the ethical consequences).
+
+###############  
+9) Progressive development: IMHO, successful undergrad projects are more iterative (sort of agile ish) than waterfall. Typically, students simply do not yet have the experience to properly judge the scale of everything, with full insight into all their constituent components. Do something small to find out something that will inform you how to do the next phase. A beautiful example of this progressive development of understanding can be found in Aleph One's "Smashing the Stack for Fun and Profit"; Phrack [http://phrack.org/issues/49/14.html#article  <http://phrack.org/issues/49/14.html#article>]. The output of test i-1 influences how test i is designed, whose output in turn influences test i+1 and so forth (recursion ends when report must be submitted) as you gradually become progressively more insightful as to what is going on. 
+
+##############  
+10) construct a rudimentary PoC early: by the time you submit your research outline in January, you (and by extension therefore, I) should have confidence that what you are attempting is realistic. An early "Hello, World!" in whatever is a vertical slice through all the important parts of what you will use is really useful if you discover that you can't actually get access to ... with the accuracy you need. If that happens, it is time to re-shape the project somewhat. 
+
+##############  
+11) metrics of success: good marks can be earned for the project, even when the answer to the question / widget design is "do not do it like this for these reasons:..." the design and execution of the evidence generation must be robust; the interpretation of that evidence might be entirely contrary to what you expect / hope for now at the project outset. 
+
+#############  
+12) The project can morph: within reason, be prepared to adapt somewhat as you go. Just because the research question you identified in October can be articulated better in February does not bind you the concrete lump that the not-so-good research question / dev goal feels like, once you have more insight. The ethical requirements should not change. The overall methodology should not change (but in extremis, even they can be changed). HOWEVER, not settling on something and focussing on it robustly throughout is one of the most effective ways to submit a poor project dissertation. Flip flopping from one idea to another is bad; refining an initial idea to make it better is good. 
+
+################  
+13) for each meeting, prepare: 
+
+13.1) an overall plan for the remainder - more detail in the near future, coarser blocks of time further out; main activities identified and dependencies sequenced. 
+
+13.2) achievements since last meeting; focus on what useful stuff exists as a result of the activities (chapter in lit review, code re-factored in repo, script to auto calibrate test environment, data of first five runs in appendix J, ...) rather than the process of finding it. This should help you concentrate on generating output to go in the report, rather than doing fun stuff (sorry!) 
+
+13.3) what you intend to have as outputs by the time we next meet. 
+
+13.4) any significant issues. 
+
+13.5) what you currently regard as the greatest risk(s) to the project (which will result in a worse than appropriate project mark). Whatever it is (they are), address them!!!!!
